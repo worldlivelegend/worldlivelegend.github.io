@@ -1,0 +1,103 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+.gear-div{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 600px 600px;
+    align-items: stretch;
+    height: 100%;
+    margin-left: 100px;
+    margin-bottom: 0;
+}
+
+.gear{
+    background-color: #17D0D8;
+    color: black;
+}
+
+.gear-link{
+    color: black;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.gear-desc{
+    font-size: 20px;
+    width: 500px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.gear, .gear-awards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+    font-size: 54px;
+}
+
+.container{margin-left: 100px;}
+
+.split-image{
+    width: 1200px;
+    margin-top: 0;
+}
+
+.link{
+    font-size: 24px;
+    color: black;
+}
+
+.form-div{
+    margin-top: 32px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+}
+
+.question{
+    font-size: 36px;
+    margin-bottom: 8px;
+}
+.answer{
+    font-size: 22.5px;
+    margin-top: 0px;
+}
+
+#join-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="email"]{
+    width: 750px;
+    font-size: 20px;
+    padding-left: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.form-button{
+    background-color: #17D0D8;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    padding: 12px 48px 12px 48px;
+    margin-left: 12px;
+}
+
+.terms{
+    font-size: 13px;
+    font-weight: lighter;
+}
