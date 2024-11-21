@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Contacts</title>
+
+    <link rel="stylesheet" href="../styles/contact.css">
+    <link rel="stylesheet" href="../styles/header.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="header">
+      <h1 class="site-name">Running Crew</h1>
+
+      <div class="pages">
+        <a href="../index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="articles.html">Articles</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contacts.html">Contacts</a>
+      </div>
+    </div>
+
+    <h1>Let's contact and become friends</h1>
+    <div class="container">
+      <div><img src="../images/contact.jpg" alt="running-guys"></div>
+      <div>
+        <form action="../index.html" method="get">
+          <div>
+            <fieldset>
+              <legend>Contact Us</legend>
+
+                <label for="name">First Name</label>
+                <input type="text" id="name" name="firstName">
+
+                <div>
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email">
+                </div>
+
+                <div>
+                  <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                  <label for="subscribe">Subscribe for newsletter</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>Small Feedback</legend>
+
+              <div>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
+
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+              </div>
+
+              <div>
+                <label for="birthday">When did you birth?</label>
+                <input type="date" id="birthday" name="birthday">
+              </div>
+
+              <div>
+                <label for="country">What country are you from?</label>
+                <input type="text" id="country" name="country">
+              </div>
+
+              <label for="message">
+                  Give us small review about your experience:
+              </label>
+
+              <div>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea>
+              </div>
+
+              <button type="submit">Submit</button>
+
+            </fieldset>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

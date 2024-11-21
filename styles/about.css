@@ -1,0 +1,41 @@
+*{font-family: "Montserrat", "Source Code Pro",  sans-serif;}
+
+.number{
+    font-size: 24px;
+    font-weight: bold;
+    width: 12px;
+    background-color: black;
+    color: white;
+    padding: 8px 8px 8px 8px;
+    text-align: center;
+    display: inline-block;
+}
+
+img{
+    width: 800px;
+    display: block;
+}
+
+p{
+    width: 800px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+h2{
+    display: inline-block;
+    text-align: center;
+    background-color: #17D0D8;
+    padding: 8px 8px 8px 8px;
+}
+
+.question{
+    margin-left: 250px;
+    margin-top: 24px;
+    font-size: 36px;
+}
+
+.container{
+    margin-left: 250px;
+    margin-top: 24px;
+}

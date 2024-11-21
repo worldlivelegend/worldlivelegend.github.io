@@ -1,0 +1,49 @@
+*{font-family: "Montserrat", "Source Code Pro",  sans-serif;}
+
+h1{text-align: center;}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+form{
+    text-align: center;
+    background-color: #17D0D8;
+    padding-top: 100px;
+}
+
+image{
+    width: 600px;
+}
+
+fieldset{
+    margin-top: 24px;
+    line-height: 1.5;
+    border: none;
+}
+
+legend{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+input{
+    border: solid 1px;
+    border-radius: 4px;
+    padding: 6px;
+}
+
+button{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 12px 24px 12px 24px;
+    font-size: 24px;
+    margin-top: 12px;
+    margin-bottom: 2px;
+}
+
+label{font-size: 20px;}
+

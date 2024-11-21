@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+
+    <link rel="stylesheet" href="../styles/form.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <form action="../index.html">
+      <div>
+        <fieldset>
+          <legend>What To Wear?</legend>
+
+          <div>
+            <label for="gender">Gender &#40;What type of clothes do you prefer&#41;&#58; </label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="temperature">Temperature &#40;What's the actual temp outside&#41;&#58;</label>
+            <select id="temperature" name="temperature">
+              <option value="-23">&#45;23&#186; С &#45;18&#186; С</option>
+              <option value="-18">&#45;18&#186; С &#45;12&#186; С</option>
+              <option value="-12">&#45;12&#186; С &#45;7&#186; С</option>
+              <option value="-7">&#45;7&#186; С &#45;1&#186; С</option>
+              <option value="-1">&#45;1&#186; С 4&#186; С</option>
+              <option value="5">5&#186; С 9&#186; С</option>
+              <option value="10">10&#186; С 15&#186; С</option>
+              <option value="16">16&#186; С 21&#186; С</option>
+              <option value="21">21&#186; С 26&#186; С</option>
+              <option value="27">27&#186; С 32&#186; С</option>
+              <option value="32">32&#186; С 37&#186; С</option>
+              <option value="38">38&#186; С</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="conditions">Conditions &#58;</label>
+            <select id="conditions" name="conditions">
+              <option value="clear">Clear</option>
+              <option value="cloudy">Partly Cloudly</option>
+              <option value="overcast">Overcast</option>
+              <option value="heavy-rain">Heavy Rain</option>
+              <option value="light-rain">Light Rain</option>
+              <option value="snowing">Snowing</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="wind">Wind&#58;</label>
+            <select id="wind" name="wind">
+              <option value="no">No Wind</option>
+              <option value="light">Light Wind</option>
+              <option value="heavy">Heavy Wind</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="time">Time Of Day&#58;</label>
+            <select id="time" name="time">
+              <option value="dawn">Dawn</option>
+              <option value="daytime">Daytime</option>
+              <option value="night">Night</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="intensity">Intensity &#40;What Type Of Run Is It&#41; &#58;</label>
+            <select id="intensity" name="intensity">
+              <option value="easy">Easy Run</option>
+              <option value="long">Long Run</option>
+              <option value="race">Race</option>
+              <option value="hard">Hard Workout</option>
+            </select>
+          </div>
+
+          <div>
+            <label>Feel &#40;How Do You Wanna Feel While Running&#41; &#58; </label>
+            <div>
+              <input type="radio" id="warmer" name="feel" value="warmer">
+              <label for="warmer">&#127774; Warmer</label>
+
+              <input type="radio" id="between" name="feel" value="between">
+              <label for="between">&#127780; In Between</label>
+
+              <input type="radio" id="colder" name="feel" value="colder">
+              <label for="colder">&#129398; Cooler</label>
+            </div>
+          </div>
+
+          <button type="submit">SUBMIT</button>
+
+        </fieldset>
+      </div>
+    </form>
+  </body>
+</html>
+
+
+
+

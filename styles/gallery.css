@@ -1,0 +1,17 @@
+*{font-family:"Montserrat", sans-serif;}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+img{width: 400px;}
+
+.quote{
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: 700;
+}
