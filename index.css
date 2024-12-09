@@ -1,11 +1,13 @@
-:root{
+:root {
     --main-color: #34547A;
     --text-color: #727272;
     --background-color: #EEEFF1;
     --letter-spacine: 0.1em;
 }
 
-*{box-sizing: border-box}
+* {
+    box-sizing: border-box
+}
 
 body {
     font-family: Roboto, sans-serif;
@@ -19,9 +21,11 @@ body {
     padding-block: 100px;
 }
 
-header{background-color: var(--background-color)}
+header, .light-dark__container{
+    background-color: var(--background-color)
+}
 
-ol{
+ol {
     display: flex;
     gap: 42px;
     list-style-type: none;
@@ -29,7 +33,7 @@ ol{
     padding-inline: 0;
 }
 
-nav a{
+nav a {
     color: black;
     text-decoration: none;
     font-size: 16px;
@@ -38,20 +42,25 @@ nav a{
     letter-spacing: var(--letter-spacine);
 }
 
-h1{
+
+nav a:hover {
+  color: #34547A;
+}
+
+h1 {
     font-size: 48px;
     font-weight: 500;
     padding-bottom: 60px;
 }
 
-.paragraph{
+.paragraph {
     font-size: 16px;
     color: var(--text-color);
     font-weight: 400;
     width: 540px;
 }
 
-.header-button{
+.header__button {
     margin-block: 62px 41px;
     padding: 20px 41px;
     border: none;
@@ -60,7 +69,7 @@ h1{
     letter-spacing: var(--letter-spacine);
 }
 
-.about-block__header{
+.about-block__header {
     display: flex;
     justify-content: center;
     font-size: 32px;
@@ -68,24 +77,24 @@ h1{
     padding-top: 12px;
 }
 
-.about-block__text{
+.about-block__text {
     text-align: center;
     margin: 0 auto;
     padding-top: 50px;
 }
 
-.dark-container{
+.dark-container {
     background-color: var(--main-color);
     color: white;
 }
 
-.works{
+.works {
     display: flex;
     justify-content: center;
     gap: 42px;
 }
 
-.works__items{
+.works__items {
     width: 141px;
     height: 50px;
     padding-left: 70px;
@@ -95,33 +104,31 @@ h1{
     font-weight: 500;
 }
 
-.works__projects{
+.works__projects {
     font-weight: normal;
     font-size: 16px;
     letter-spacing: 0.05em;
 }
 
-.light-dark-container{background-color: var(--background-color)}
-
-.light-dark__text .paragraph, h2{
+.light-dark__text .paragraph {
     text-align: center;
     margin: 0 auto;
 }
 
-.light-dark__text .paragraph{
+.light-dark__text .paragraph {
     padding-block: 50px 57px;
 }
 
-footer .container{
+footer .container {
     padding-block: 50px;
 }
 
-.author-name{
+.author-name {
     font-weight: 500;
     font-size: 21px;
 }
 
-.since{
+.since {
     font-weight: 400;
     font-size: 13px;
 }
