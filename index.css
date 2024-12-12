@@ -28,6 +28,7 @@ header, .light-dark__container{
 ol {
     display: flex;
     gap: 42px;
+    flex-wrap: wrap;
     list-style-type: none;
     padding-bottom: 162px;
     padding-inline: 0;
@@ -90,6 +91,7 @@ h1 {
 .works {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 42px;
 }
 
